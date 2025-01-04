@@ -7,7 +7,6 @@
   "scripts": {
     "backend": "nodemon backend/index.js",
     "client": "npm run dev --prefix client",
-    "dev": "concurrently \"npm run client\" \"npm run backend"
     "build": "npm run build"
   },
   "keywords": [],
